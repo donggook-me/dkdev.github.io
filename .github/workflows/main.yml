@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # This action checks out your repository
+
       - name: Fetch commit data from external API
         run: |
           # Use curl to fetch commit data from the external API
@@ -23,8 +26,9 @@ jobs:
 
       - name: Commit and push fetched data to repository
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          cd $GITHUB_WORKSPACE  # Ensure you're in the repository directory
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
           git add commit_data.json
           git commit -m "Update commit data"
           git push origin main
