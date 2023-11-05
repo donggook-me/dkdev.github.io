@@ -5,7 +5,9 @@ description: Your site description
 baseurl: "" # Set if your site is hosted in a subdirectory
 url: "https://donggook-me.dkdev.github.io" # Replace with your GitHub Pages URL
 
-theme: jekyll-theme-chirpy
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Additional configurations specific to the chosen theme or your site
 
