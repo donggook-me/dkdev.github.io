@@ -1,0 +1,32 @@
+# _config.yml
+
+title: Your Site Title
+email: your-email@example.com
+description: Your site description
+baseurl: "" # Set if your site is hosted in a subdirectory
+url: "https://donggook-me.dkdev.github.io" # Replace with your GitHub Pages URL
+
+theme: jekyll-theme-chirpy
+
+# Additional configurations specific to the chosen theme or your site
+
+# Uncomment the following line if you want to use GitHub Pages
+# github-pages:
+#   jekyll: 4.2
+
+# Optional settings
+# author:
+#   name: Your Name
+#   bio: 'Write something about yourself.'
+#   location: 'Your location'
+
+# social:
+#   twitter: username
+#   facebook: username
+#   github: username
+#   linkedin: username
+#   instagram: username
+#   youtube: username
+
+# Other configurations specific to the chosen theme or additional plugins
+
