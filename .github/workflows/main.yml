@@ -22,9 +22,8 @@ jobs:
 
           if [[ $(echo "$commit_data" | jq length) -gt 0 ]]; then
             mkdir -p data  # Create 'data' directory if not exists
-            timestamp=$(date +'%Y%m%d%H%M%S')  # Get current timestamp
             echo $commit_data
-            echo "$commit_data" > data/commit_data_$timestamp.json
+            echo "$commit_data" > data/commit_data.json
           else
             echo "No new commit data." > data/empty_commit_data.txt
           fi
