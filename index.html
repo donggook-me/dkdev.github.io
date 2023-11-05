@@ -49,7 +49,7 @@
     <script>
         async function displayJSON() {
             try {
-                const response = await fetch('/data/commit_data.json');
+                const response = await fetch('data/commit_data.json');
                 const data = await response.json();
                 const jsonContent = JSON.stringify(data, null, 2); // Pretty-print JSON
                 document.getElementById('json-content').innerText = jsonContent;
