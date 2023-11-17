@@ -1,8 +1,12 @@
 name: Fetch Commit History
 
+
 on:
-  schedule:
-    - cron: '*/10 * * * *'  # Run every day at midnight
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
 
 jobs:
   fetch-commit-history:
