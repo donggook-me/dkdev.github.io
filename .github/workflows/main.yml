@@ -17,14 +17,16 @@ jobs:
       - name: Get members of "gdsc" organization
         id: get-members
         run: |
-          # 임시 더미데이터 사용
-          members=("donggook-me")
+          echo "DONGGOOK_ME_MEMBERS=donggook-me" >> $GITHUB_ENV
 
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
           set -x
-          
+
+          # Access the environment variable
+          members=($DONGGOOK_ME_MEMBERS)
+
           all_commits=()
           
           for member in "${members[@]}"; do
@@ -45,10 +47,6 @@ jobs:
           else
             echo "No new commit data for any member." > data/empty_commit_data.txt
           fi
-
-
-      
-
 
       - name: Commit and push fetched data to repository
         run: |
