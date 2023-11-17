@@ -26,16 +26,20 @@ jobs:
           commit_data="{}"
           
           for member in "${members[@]}"; do
-            member_commits=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "https://api.github.com/users/${member}/events")
-            
+            echo "Fetching commit history for $member..."
+            member_commits=$(curl -sSL -H "Authorization: ***" "https://api.github.com/users/${member}/events")
+            echo "Raw member_commits data: $member_commits"
+      
             if [[ $(echo "$member_commits" | jq length) -gt 0 ]]; then
               # Extracting commit-related data (commit message, time)
               commits_data=$(echo "$member_commits" | jq -r '.[].payload.commits[] | {commitMessage: .message, commitTime: .timestamp }')
+              echo "Raw commits_data: $commits_data"
       
               # Check if the commits_data is not empty
               if [ -n "$commits_data" ]; then
                 # Append the commit data to the member's entry in commit_data
                 commit_data=$(echo "$commit_data" | jq --arg member "$member" --argjson commits "$commits_data" '.[$member] += $commits')
+                echo "Commit data for $member: $commit_data"
               else
                 echo "No commits for $member in this period."
               fi
@@ -44,6 +48,7 @@ jobs:
             fi
           done
           
+          echo "Final commit data: $commit_data"
           echo "$commit_data" > data/data.json
 
 
