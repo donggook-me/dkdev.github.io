@@ -20,15 +20,11 @@ jobs:
         id: get-members
         run: |
         # 임시 더미데이터 사용
-          # members=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" https://api.github.com/orgs/Google-DSC-Kookmin/members)
-          # echo "${members}" > members.json
           members = ("donggook-me")
           
-
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
-          members=$(cat members.json | jq -r '.[].login')
           commit_data="{}"
           
           for member in $members; do
