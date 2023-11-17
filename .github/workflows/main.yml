@@ -2,7 +2,7 @@ name: Fetch Commit History
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+    - cron: '*/10 * * * *'  # Run every day at midnight
 
 jobs:
   fetch-commit-history:
