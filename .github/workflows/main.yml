@@ -19,24 +19,33 @@ jobs:
       - name: Get members of "gdsc" organization
         id: get-members
         run: |
-          members=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" https://api.github.com/orgs/Google-DSC-Kookmin/members)
-          echo "${members}" > members.json
+        # 임시 더미데이터 사용
+          # members=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" https://api.github.com/orgs/Google-DSC-Kookmin/members)
+          # echo "${members}" > members.json
+          members = ("donggook-me")
+          
 
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
           members=$(cat members.json | jq -r '.[].login')
           commit_data="{}"
-
+          
           for member in $members; do
             member_id=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "https://api.github.com/users/${member}" | jq -r '.id')
             member_commits=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "https://api.github.com/users/${member}/events")
+            
             if [[ $(echo "$member_commits" | jq length) -gt 0 ]]; then
-              commit_data=$(echo "$commit_data" | jq --arg member "$member_id" --argjson commits "$member_commits" '. + { ($member): $commits }')
+              # Extracting commit-related data (userId, commit message, time)
+              commits_data=$(echo "$member_commits" | jq -r 'map(select(.type == "PushEvent")) | .[].payload.commits[] | { userId: .author.name, commitMessage: .message, commitTime: .timestamp }')
+              
+              # Append the commit data to the member's entry in commit_data
+              commit_data=$(echo "$commit_data" | jq --arg member "$member_id" --argjson commits "$commits_data" '.[$member] += $commits')
             fi
           done
-
+        
           echo "$commit_data" > data/data.json
+
 
       - name: Commit and push fetched data to repository
         run: |
