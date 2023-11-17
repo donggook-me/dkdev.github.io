@@ -28,7 +28,7 @@ jobs:
           
           for member in "${members[@]}"; do
             echo "Fetching commit history for $member..."
-            member_commits=$(curl -sSL -H "Authorization: ***" "https://api.github.com/users/${member}/events")
+            member_commits=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "https://api.github.com/users/${member}/events")
             echo "Raw member_commits data: $member_commits"
       
             if [[ $(echo "$member_commits" | jq length) -gt 0 ]]; then
