@@ -1,0 +1,1411 @@
+[
+  {
+    "id": "33418805992",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858763399,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "88c47486b18b584dac45fa82480858c0023c2264",
+      "before": "5720caf29ea5ef2e03ca375c6e8b7e0dfacb9c23",
+      "commits": [
+        {
+          "sha": "88c47486b18b584dac45fa82480858c0023c2264",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/88c47486b18b584dac45fa82480858c0023c2264"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T04:02:26Z"
+  },
+  {
+    "id": "33418719152",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858717598,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "53a9fa779b8dbb18751f97a4ae45447f6b1af3d8",
+      "before": "3d005a9765fa66b29866cef9126c1ecdffb2ce19",
+      "commits": [
+        {
+          "sha": "53a9fa779b8dbb18751f97a4ae45447f6b1af3d8",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/53a9fa779b8dbb18751f97a4ae45447f6b1af3d8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:55:43Z"
+  },
+  {
+    "id": "33418510135",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858606252,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "3d005a9765fa66b29866cef9126c1ecdffb2ce19",
+      "before": "9bbfa1e4cd43e11e6e16368fd9f6220483b639c0",
+      "commits": [
+        {
+          "sha": "3d005a9765fa66b29866cef9126c1ecdffb2ce19",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/3d005a9765fa66b29866cef9126c1ecdffb2ce19"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:38:23Z"
+  },
+  {
+    "id": "33418455161",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858576464,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "9bbfa1e4cd43e11e6e16368fd9f6220483b639c0",
+      "before": "cac1ea8cfdccbbaab83c72a48bb77d63891e6db3",
+      "commits": [
+        {
+          "sha": "9bbfa1e4cd43e11e6e16368fd9f6220483b639c0",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/9bbfa1e4cd43e11e6e16368fd9f6220483b639c0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:34:04Z"
+  },
+  {
+    "id": "33418381268",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858536690,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "cac1ea8cfdccbbaab83c72a48bb77d63891e6db3",
+      "before": "e57102a80c30df7fd22d22dec2e511c7894a4433",
+      "commits": [
+        {
+          "sha": "cac1ea8cfdccbbaab83c72a48bb77d63891e6db3",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/cac1ea8cfdccbbaab83c72a48bb77d63891e6db3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:28:17Z"
+  },
+  {
+    "id": "33418298551",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858495376,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "e57102a80c30df7fd22d22dec2e511c7894a4433",
+      "before": "286421cbdb98adcf2c68f9e3d56bf3954afa4033",
+      "commits": [
+        {
+          "sha": "e57102a80c30df7fd22d22dec2e511c7894a4433",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/e57102a80c30df7fd22d22dec2e511c7894a4433"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:22:19Z"
+  },
+  {
+    "id": "33418220701",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858453945,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "286421cbdb98adcf2c68f9e3d56bf3954afa4033",
+      "before": "817c4cff0230656e096dfd5e1c34ce225c179582",
+      "commits": [
+        {
+          "sha": "286421cbdb98adcf2c68f9e3d56bf3954afa4033",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/286421cbdb98adcf2c68f9e3d56bf3954afa4033"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:16:27Z"
+  },
+  {
+    "id": "33418017455",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858344018,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "f8cf69a9003674c091931711c03aa3ab22931171",
+      "before": "4d01bd3d816c8efe2eb6b565de84d086b397ecd0",
+      "commits": [
+        {
+          "sha": "f8cf69a9003674c091931711c03aa3ab22931171",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/f8cf69a9003674c091931711c03aa3ab22931171"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T03:00:57Z"
+  },
+  {
+    "id": "33417997846",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858333169,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "4d01bd3d816c8efe2eb6b565de84d086b397ecd0",
+      "before": "21329f18c9dfba684c49a134ea74021b03120544",
+      "commits": [
+        {
+          "sha": "4d01bd3d816c8efe2eb6b565de84d086b397ecd0",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/4d01bd3d816c8efe2eb6b565de84d086b397ecd0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T02:59:32Z"
+  },
+  {
+    "id": "33417946859",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15858306149,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "21329f18c9dfba684c49a134ea74021b03120544",
+      "before": "01c65f56726033f4088ac8d8e153725fc202fc37",
+      "commits": [
+        {
+          "sha": "21329f18c9dfba684c49a134ea74021b03120544",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/21329f18c9dfba684c49a134ea74021b03120544"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T02:55:31Z"
+  },
+  {
+    "id": "33417297535",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15857967483,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "01c65f56726033f4088ac8d8e153725fc202fc37",
+      "before": "c0032e8967b50281f82a14e485099ec2f8545b80",
+      "commits": [
+        {
+          "sha": "01c65f56726033f4088ac8d8e153725fc202fc37",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/01c65f56726033f4088ac8d8e153725fc202fc37"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T02:08:10Z"
+  },
+  {
+    "id": "33417158567",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15857887772,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "c0032e8967b50281f82a14e485099ec2f8545b80",
+      "before": "df8e6e5b42d6dba16076a6aff7e7beb7005312d5",
+      "commits": [
+        {
+          "sha": "c0032e8967b50281f82a14e485099ec2f8545b80",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/c0032e8967b50281f82a14e485099ec2f8545b80"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T01:59:25Z"
+  },
+  {
+    "id": "33417117730",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15857865059,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "df8e6e5b42d6dba16076a6aff7e7beb7005312d5",
+      "before": "89b5ff8e86741f444ec0fe8158c633836b50971e",
+      "commits": [
+        {
+          "sha": "df8e6e5b42d6dba16076a6aff7e7beb7005312d5",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update main.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/df8e6e5b42d6dba16076a6aff7e7beb7005312d5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-17T01:56:56Z"
+  },
+  {
+    "id": "33384186449",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 694421768,
+      "name": "kookmin-sw/timebank-2023-docs",
+      "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30",
+        "repository_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs",
+        "labels_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/comments",
+        "events_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/events",
+        "html_url": "https://github.com/kookmin-sw/timebank-2023-docs/issues/30",
+        "id": 1984019697,
+        "node_id": "I_kwDOKWQJCM52Qbzx",
+        "number": 30,
+        "title": "TimePay -> DB 및 백엔드 개선 이슈",
+        "user": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "assignees": [
+          {
+            "login": "donggook-me",
+            "id": 53322908,
+            "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+            "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/donggook-me",
+            "html_url": "https://github.com/donggook-me",
+            "followers_url": "https://api.github.com/users/donggook-me/followers",
+            "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+            "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+            "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+            "repos_url": "https://api.github.com/users/donggook-me/repos",
+            "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+            "type": "User",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2023-11-08T16:50:56Z",
+        "updated_at": "2023-11-16T01:21:26Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "현재 ERD  ( mysql workbench ) 하단 첨부.\n\n* ERD 요약\n 유저 / 어드민 / 도움 관련 게시글(deal-boards) / 자유게시글(free - boards) / 기타 등등\n\n개선 작업\n\n- free-boards -> 자유게시글 올리는 기능은 현재 사용되지 않고 있지만 테이블 자동 형성되고, api 가 존재함.\n- 위를 DB 상에서 테이블 생성하지 않도록 초기 스크립트 설정할 것.\n\n\n\n\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/b1abc3b7-07f4-492d-bfc4-8a97c5aca786)\n\n\n\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/comments/1813578824",
+        "html_url": "https://github.com/kookmin-sw/timebank-2023-docs/issues/30#issuecomment-1813578824",
+        "issue_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30",
+        "id": 1813578824,
+        "node_id": "IC_kwDOKWQJCM5sGQRI",
+        "user": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2023-11-16T01:21:26Z",
+        "updated_at": "2023-11-16T01:21:26Z",
+        "author_association": "NONE",
+        "body": "20231106\r\n\r\n데이터 정규화 1,2,3원칙 점검 -Timepay 부분\r\n\r\n현재 만들어진 테이블 중에 실 사용중인 테이블을 위주로 정규화 상태를 점검하였음.\r\n\r\n사용중인 테이블은 큰 범주로 User  관련 테이블들 / Deal-board(도움요청 게시물) / comment  테이블들로 나눌 수 있음.\r\n\r\n 데이터 중복 문제가 발생할 수 있는 User/ deal-board 두가지 테이블의 관계는 Deal-board-register table(userId / deal board Id) 로 묶여있고. 따라서 제1,2,3 정규화에 위배되지 않음(문제 없음.).",
+        "reactions": {
+          "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/comments/1813578824/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2023-11-16T01:21:27Z",
+    "org": {
+      "id": 36731098,
+      "login": "kookmin-sw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kookmin-sw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36731098?"
+    }
+  },
+  {
+    "id": "33302015435",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718127817,
+      "name": "Google-DSC-Kookmin/Google-DSC-Kookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/Google-DSC-Kookmin.github.io"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "gdsc kookmin webiste",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:54:23Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33302015297",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718127817,
+      "name": "Google-DSC-Kookmin/Google-DSC-Kookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/Google-DSC-Kookmin.github.io"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:54:23Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33302007648",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718127817,
+      "name": "Google-DSC-Kookmin/Google-DSC-Kookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/Google-DSC-Kookmin.github.io"
+    },
+    "payload": {
+      "ref": "frontend_dev",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": "gdsc kookmin webiste",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:54:07Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301832433",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718127817,
+      "name": "Google-DSC-Kookmin/Google-DSC-Kookmin",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/Google-DSC-Kookmin"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": "gdsc kookmin webiste",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:47:41Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301831742",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718127817,
+      "name": "Google-DSC-Kookmin/Google-DSC-Kookmin",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/Google-DSC-Kookmin"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "main",
+      "description": "gdsc kookmin webiste",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:47:40Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301465668",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "repository_id": 718113528,
+      "push_id": 15800931711,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "cd29b2b38c706983c069d05ed2e1c67ac5e43611",
+      "before": "da9bcd49e9d77fb422881d063fb50d893de4288d",
+      "commits": [
+        {
+          "sha": "cd29b2b38c706983c069d05ed2e1c67ac5e43611",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Rename readme to README",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io/commits/cd29b2b38c706983c069d05ed2e1c67ac5e43611"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:33:58Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301255166",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "ref": "frontend_dev",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "gdsckookmin website",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:26:11Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301226018",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:25:06Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301225869",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "gdsckookmin website",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:25:06Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33301196488",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": "gdsckookmin website",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:23:58Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33300814487",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 718113528,
+      "name": "Google-DSC-Kookmin/gdsckookmin.github.io",
+      "url": "https://api.github.com/repos/Google-DSC-Kookmin/gdsckookmin.github.io"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "main",
+      "description": "gdsckookmin website",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2023-11-13T12:10:08Z",
+    "org": {
+      "id": 115331170,
+      "login": "Google-DSC-Kookmin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Google-DSC-Kookmin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115331170?"
+    }
+  },
+  {
+    "id": "33198394838",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 694421768,
+      "name": "kookmin-sw/timebank-2023-docs",
+      "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30",
+        "repository_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs",
+        "labels_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/comments",
+        "events_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/events",
+        "html_url": "https://github.com/kookmin-sw/timebank-2023-docs/issues/30",
+        "id": 1984019697,
+        "node_id": "I_kwDOKWQJCM52Qbzx",
+        "number": 30,
+        "title": "TimePay -> DB 및 백엔드 개선 이슈",
+        "user": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2023-11-08T16:50:56Z",
+        "updated_at": "2023-11-08T16:50:56Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "현재 ERD  ( mysql workbench ) 하단 첨부.\n\n* ERD 요약\n 유저 / 어드민 / 도움 관련 게시글(deal-boards) / 자유게시글(free - boards) / 기타 등등\n\n개선 작업\n\n- free-boards -> 자유게시글 올리는 기능은 현재 사용되지 않고 있지만 테이블 자동 형성되고, api 가 존재함.\n- 위를 DB 상에서 테이블 생성하지 않도록 초기 스크립트 설정할 것.\n\n\n\n\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/b1abc3b7-07f4-492d-bfc4-8a97c5aca786)\n\n\n\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/30/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      }
+    },
+    "public": true,
+    "created_at": "2023-11-08T16:50:57Z",
+    "org": {
+      "id": 36731098,
+      "login": "kookmin-sw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kookmin-sw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36731098?"
+    }
+  },
+  {
+    "id": "33197950385",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 694421768,
+      "name": "kookmin-sw/timebank-2023-docs",
+      "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29",
+        "repository_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs",
+        "labels_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29/comments",
+        "events_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29/events",
+        "html_url": "https://github.com/kookmin-sw/timebank-2023-docs/issues/29",
+        "id": 1983993495,
+        "node_id": "I_kwDOKWQJCM52QVaX",
+        "number": 29,
+        "title": "게시글 -> 신고하기 기능 api call 경로 문제",
+        "user": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2023-11-08T16:35:53Z",
+        "updated_at": "2023-11-08T16:35:53Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "* 문제상황 -> 게시글에서 해당 게시글을 신고하기 누른 뒤, 신고 사유와 함께 등록시 오류.\n\n\n\n* 문제 원인 -> network 탭을 보면 /deal-boards/write/helper 로 api call 을 던지고 있음.\n 하지만 백엔드 서비스단을 살펴보면, 해당 call 은 도움 주길 원하는 사람이 도움 게시물을 작성하는 api call 임.\n\n\n* 해결 방법 -> front-end 단에서 api call 경로를 맨 아래의 컨트롤러에 맞춰 /deal-boards/{boardId}/report 로 변경 필요.\n\n\n\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/7a6403b4-ed61-4872-b5d1-607314282bf7)\n\n\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/d69c13fb-8713-4df5-b738-a3304ccfe833)\n\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/29/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      }
+    },
+    "public": true,
+    "created_at": "2023-11-08T16:35:54Z",
+    "org": {
+      "id": 36731098,
+      "login": "kookmin-sw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kookmin-sw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36731098?"
+    }
+  },
+  {
+    "id": "33197198565",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 694421768,
+      "name": "kookmin-sw/timebank-2023-docs",
+      "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28",
+        "repository_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs",
+        "labels_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28/labels{/name}",
+        "comments_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28/comments",
+        "events_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28/events",
+        "html_url": "https://github.com/kookmin-sw/timebank-2023-docs/issues/28",
+        "id": 1983950359,
+        "node_id": "I_kwDOKWQJCM52QK4X",
+        "number": 28,
+        "title": "개인 프로필 -> 댓글 -> 게시물로 리다이렉션 작동 X",
+        "user": {
+          "login": "donggook-me",
+          "id": 53322908,
+          "node_id": "MDQ6VXNlcjUzMzIyOTA4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/53322908?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/donggook-me",
+          "html_url": "https://github.com/donggook-me",
+          "followers_url": "https://api.github.com/users/donggook-me/followers",
+          "following_url": "https://api.github.com/users/donggook-me/following{/other_user}",
+          "gists_url": "https://api.github.com/users/donggook-me/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/donggook-me/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/donggook-me/subscriptions",
+          "organizations_url": "https://api.github.com/users/donggook-me/orgs",
+          "repos_url": "https://api.github.com/users/donggook-me/repos",
+          "events_url": "https://api.github.com/users/donggook-me/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/donggook-me/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2023-11-08T16:11:34Z",
+        "updated_at": "2023-11-08T16:11:34Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "\n* 특정인의 개인 프로필에서 댓글창 -> 댓글 단 게시물로 이동하려는 버튼 클릭시 -> 네트워크 관리자 모드에서는 특정 게시물 번호로 api 를 날리는 것으로 나오지만 유저 화면에서는 이동하지 않는 문제.\n\n\n* assign -> 타임페이 프론트 담당분들.\n\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/d13dcb80-32cc-44af-8f26-8cafca696a97\n\n![Image](https://github.com/kookmin-sw/timebank-2023-docs/assets/53322908/159e39ac-2b12-41b3-90c5-65162a320d28)\n\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/kookmin-sw/timebank-2023-docs/issues/28/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      }
+    },
+    "public": true,
+    "created_at": "2023-11-08T16:11:36Z",
+    "org": {
+      "id": 36731098,
+      "login": "kookmin-sw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/kookmin-sw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36731098?"
+    }
+  },
+  {
+    "id": "33147450281",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 258922512,
+      "name": "ShizukuIchi/pdf-editor",
+      "url": "https://api.github.com/repos/ShizukuIchi/pdf-editor"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2023-11-07T07:46:33Z"
+  },
+  {
+    "id": "33100525095",
+    "type": "PushEvent",
+    "actor": {
+      "id": 53322908,
+      "login": "donggook-me",
+      "display_login": "donggook-me",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donggook-me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53322908?"
+    },
+    "repo": {
+      "id": 714337561,
+      "name": "donggook-me/dkdev.github.io",
+      "url": "https://api.github.com/repos/donggook-me/dkdev.github.io"
+    },
+    "payload": {
+      "repository_id": 714337561,
+      "push_id": 15698780243,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "ef91d3c8ffd503d13ee7410f6ba652ddf92598a6",
+      "before": "fc57f2e9ba334d279155cccaf1703c317b9eea3e",
+      "commits": [
+        {
+          "sha": "ef91d3c8ffd503d13ee7410f6ba652ddf92598a6",
+          "author": {
+            "email": "53322908+donggook-me@users.noreply.github.com",
+            "name": "Juliandocode"
+          },
+          "message": "Update index.html",
+          "distinct": true,
+          "url": "https://api.github.com/repos/donggook-me/dkdev.github.io/commits/ef91d3c8ffd503d13ee7410f6ba652ddf92598a6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-11-05T12:40:04Z"
+  }
+]
