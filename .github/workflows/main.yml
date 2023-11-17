@@ -19,7 +19,7 @@ jobs:
         run: |
           # 임시 더미데이터 사용
           members=("donggook-me")
-          
+                
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
@@ -30,14 +30,22 @@ jobs:
             
             if [[ $(echo "$member_commits" | jq length) -gt 0 ]]; then
               # Extracting commit-related data (commit message, time)
-              commits_data=$(echo "$member_commits" | jq -r 'map(select(.type == "PushEvent")) | .[].payload.commits[] | {commitMessage: .message, commitTime: .timestamp }')
-              echo $commits_data
-              # Append the commit data to the member's entry in commit_data
-              commit_data=$(echo "$commit_data" | jq --arg member "$member" --argjson commits "$commits_data" '.[$member] += $commits')
+              commits_data=$(echo "$member_commits" | jq -r '.[].payload.commits[] | {commitMessage: .message, commitTime: .timestamp }')
+      
+              # Check if the commits_data is not empty
+              if [ -n "$commits_data" ]; then
+                # Append the commit data to the member's entry in commit_data
+                commit_data=$(echo "$commit_data" | jq --arg member "$member" --argjson commits "$commits_data" '.[$member] += $commits')
+              else
+                echo "No commits for $member in this period."
+              fi
+            else
+              echo "No events found for $member."
             fi
           done
           
           echo "$commit_data" > data/data.json
+
 
       - name: Commit and push fetched data to repository
         run: |
