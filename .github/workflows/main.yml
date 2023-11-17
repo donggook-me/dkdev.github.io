@@ -17,15 +17,15 @@ jobs:
       - name: Get members of "gdsc" organization
         id: get-members
         run: |
-          echo "DONGGOOK_ME_MEMBERS=donggook-me" >> $GITHUB_ENV
+          echo "GDSC_MEMBERS=donggook-me handsomem1n ChangHoon-Sung" >> $GITHUB_ENV
 
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
           set -x
 
-          # Access the environment variable
-          members=($DONGGOOK_ME_MEMBERS)
+          # Access the environment variable and split it into an array
+          members=($GDSC_MEMBERS)
 
           all_commits=()
           
@@ -34,16 +34,20 @@ jobs:
             member_commits=$(curl -sSL -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" "https://api.github.com/users/${member}/events")
       
             if [[ $(echo "$member_commits" | jq length) -gt 0 ]]; then
-              all_commits+=("$member_commits")
+              # Extracting commit-related data (commit ID, name, time, message, link)
+              commits_data=$(echo "$member_commits" | jq -r 'map(select(.type == "PushEvent")) | .[].payload.commits[] | {commitId: .sha, userName: .author.name, commitTime: .timestamp, commitMessage: .message, commitLink: .url }')
+
+              # Append the commit data to the member's entry in all_commits
+              all_commits+=("$member: $commits_data")
             else
               echo "No new commit data for $member."
             fi
           done
       
           if [[ ${#all_commits[@]} -gt 0 ]]; then
+            # Save the commits data to data.json
             mkdir -p data
-            timestamp=$(date +'%Y%m%d%H%M%S')
-            echo "${all_commits[@]}" > data/commit_data_$timestamp.json
+            echo "{ ${all_commits[@]} }" > data/data.json
           else
             echo "No new commit data for any member." > data/empty_commit_data.txt
           fi
