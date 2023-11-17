@@ -19,10 +19,11 @@ jobs:
         run: |
           # 임시 더미데이터 사용
           members=("donggook-me")
-                
+
       - name: Fetch commit history for each member
         id: fetch-commit-history
         run: |
+          set -x
           commit_data="{}"
           
           for member in "${members[@]}"; do
@@ -50,6 +51,8 @@ jobs:
           
           echo "Final commit data: $commit_data"
           echo "$commit_data" > data/data.json
+        shell: /usr/bin/bash -e {0}
+
 
 
       - name: Commit and push fetched data to repository
